@@ -237,4 +237,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: macos_outputs
-          path: Kazumi_macos_*.dmg
+          path: Kazumi_macos*.dmg
