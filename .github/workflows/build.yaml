@@ -80,7 +80,7 @@ jobs:
         with:
           name: windows_outputs
           path: |
-            Kazumi_windows_*.zip
+            Kazumi_windows*.zip
 
 
   flutter-build-linux:
@@ -175,8 +175,8 @@ jobs:
         with:
           name: linux_outputs
           path: |
-            Kazumi_linux_*.tar.gz
-            Kazumi_linux_*.deb
+            Kazumi_linux*.tar.gz
+            Kazumi_linux*.deb
 
   flutter-build-ios:
     name: "Release for iOS"
